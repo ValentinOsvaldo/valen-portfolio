@@ -11,4 +11,10 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/test-utils',
   ],
+
+  content: {
+    experimental: {
+      sqliteConnector: 'native',
+    },
+  },
 });
