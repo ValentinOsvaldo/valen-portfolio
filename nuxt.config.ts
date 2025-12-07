@@ -10,7 +10,22 @@ export default defineNuxtConfig({
     '@nuxt/hints',
     '@nuxt/image',
     '@nuxt/test-utils',
+    '@nuxt/fonts',
   ],
+  alias: {
+    assets: '/<srcDir>/assets',
+  },
+
+  css: ['~/assets/css/main.css'],
+
+  fonts: {
+    families: [
+      {
+        name: 'Inter',
+        provider: 'google',
+      },
+    ],
+  },
 
   content: {
     experimental: {
