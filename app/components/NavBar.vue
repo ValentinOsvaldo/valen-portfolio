@@ -6,10 +6,10 @@ const items: NavigationMenuItem[] = [
     label: 'Home',
     to: '/',
   },
-  {
-    label: 'Projects',
-    to: '/projects',
-  },
+  // {
+  //   label: 'Projects',
+  //   to: '/projects',
+  // },
   {
     label: 'About',
     to: '/about',
